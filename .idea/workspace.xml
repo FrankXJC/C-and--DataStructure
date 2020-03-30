@@ -2,7 +2,8 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="Cdemo" targetName="Cdemo" />
+      <config projectName="Cdemo" targetName="Cdeme2" />
+      <config projectName="Cdemo" targetName="Cdemo1" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -12,8 +13,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="587dcf6f-d6e5-47f2-b0b1-a9491d9c0516" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/isBlove.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdemo.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdemo.dir/depend.internal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdemo.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdemo.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdemo.dir/main.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Cdemo.dir/main.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Cdemo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Cdemo.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Cdemo.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/isPrime.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ZburndlGymBzYkKvmSOHGeFrZ2" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -38,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -46,12 +61,21 @@
       <recent name="$PROJECT_DIR$/test1" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Cdemo" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cdemo" TARGET_NAME="Cdemo" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cdemo" RUN_TARGET_NAME="Cdemo">
+  <component name="RunManager" selected="CMake Application.Cdeme2">
+    <configuration name="Cdeme2" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cdemo" TARGET_NAME="Cdeme2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cdemo" RUN_TARGET_NAME="Cdeme2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Cdemo1" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Cdemo" TARGET_NAME="Cdemo1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Cdemo" RUN_TARGET_NAME="Cdemo1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Cdeme2" />
+      <item itemvalue="CMake Application.Cdemo1" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -67,6 +91,7 @@
       <workItem from="1585238061993" duration="31000" />
       <workItem from="1585332242918" duration="432000" />
       <workItem from="1585537205984" duration="1263000" />
+      <workItem from="1585582769479" duration="2035000" />
     </task>
     <servers />
   </component>
@@ -86,22 +111,22 @@
       <screen x="0" y="23" width="1792" height="1010" />
     </state>
     <state x="1085" y="271" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1792.1010@0.23.1792.1010" timestamp="1585332343445" />
-    <state width="847" height="253" key="GridCell.Tab.0.bottom" timestamp="1585539224034">
+    <state width="847" height="253" key="GridCell.Tab.0.bottom" timestamp="1585585391832">
       <screen x="0" y="23" width="1792" height="1010" />
     </state>
-    <state width="847" height="253" key="GridCell.Tab.0.bottom/0.23.1792.1010@0.23.1792.1010" timestamp="1585539224034" />
-    <state width="847" height="253" key="GridCell.Tab.0.center" timestamp="1585539224033">
+    <state width="847" height="253" key="GridCell.Tab.0.bottom/0.23.1792.1010@0.23.1792.1010" timestamp="1585585391832" />
+    <state width="847" height="253" key="GridCell.Tab.0.center" timestamp="1585585391831">
       <screen x="0" y="23" width="1792" height="1010" />
     </state>
-    <state width="847" height="253" key="GridCell.Tab.0.center/0.23.1792.1010@0.23.1792.1010" timestamp="1585539224033" />
-    <state width="847" height="253" key="GridCell.Tab.0.left" timestamp="1585539224033">
+    <state width="847" height="253" key="GridCell.Tab.0.center/0.23.1792.1010@0.23.1792.1010" timestamp="1585585391831" />
+    <state width="847" height="253" key="GridCell.Tab.0.left" timestamp="1585585391831">
       <screen x="0" y="23" width="1792" height="1010" />
     </state>
-    <state width="847" height="253" key="GridCell.Tab.0.left/0.23.1792.1010@0.23.1792.1010" timestamp="1585539224033" />
-    <state width="847" height="253" key="GridCell.Tab.0.right" timestamp="1585539224033">
+    <state width="847" height="253" key="GridCell.Tab.0.left/0.23.1792.1010@0.23.1792.1010" timestamp="1585585391831" />
+    <state width="847" height="253" key="GridCell.Tab.0.right" timestamp="1585585391831">
       <screen x="0" y="23" width="1792" height="1010" />
     </state>
-    <state width="847" height="253" key="GridCell.Tab.0.right/0.23.1792.1010@0.23.1792.1010" timestamp="1585539224033" />
+    <state width="847" height="253" key="GridCell.Tab.0.right/0.23.1792.1010@0.23.1792.1010" timestamp="1585585391831" />
     <state width="847" height="313" key="GridCell.Tab.1.bottom" timestamp="1585332675178">
       <screen x="0" y="23" width="1792" height="1010" />
     </state>
@@ -118,13 +143,13 @@
       <screen x="0" y="23" width="1792" height="1010" />
     </state>
     <state width="847" height="313" key="GridCell.Tab.1.right/0.23.1792.1010@0.23.1792.1010" timestamp="1585332675178" />
-    <state x="795" y="156" key="SettingsEditor" timestamp="1585538677610">
+    <state x="795" y="156" key="SettingsEditor" timestamp="1585582857727">
       <screen x="0" y="23" width="1792" height="1010" />
     </state>
-    <state x="795" y="156" key="SettingsEditor/0.23.1792.1010@0.23.1792.1010" timestamp="1585538677610" />
-    <state x="1024" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1585332244068">
+    <state x="795" y="156" key="SettingsEditor/0.23.1792.1010@0.23.1792.1010" timestamp="1585582857727" />
+    <state x="1024" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1585582770382">
       <screen x="0" y="23" width="1792" height="1010" />
     </state>
-    <state x="1024" y="349" key="com.intellij.ide.util.TipDialog/0.23.1792.1010@0.23.1792.1010" timestamp="1585332244068" />
+    <state x="1024" y="349" key="com.intellij.ide.util.TipDialog/0.23.1792.1010@0.23.1792.1010" timestamp="1585582770382" />
   </component>
 </project>

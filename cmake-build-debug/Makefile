@@ -111,44 +111,84 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Cdemo
+# Target rules for targets named Cdeme2
 
 # Build rule for target.
-Cdemo: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cdemo
-.PHONY : Cdemo
+Cdeme2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cdeme2
+.PHONY : Cdeme2
 
 # fast build rule for target.
-Cdemo/fast:
-	$(MAKE) -f CMakeFiles/Cdemo.dir/build.make CMakeFiles/Cdemo.dir/build
-.PHONY : Cdemo/fast
+Cdeme2/fast:
+	$(MAKE) -f CMakeFiles/Cdeme2.dir/build.make CMakeFiles/Cdeme2.dir/build
+.PHONY : Cdeme2/fast
 
-main.o: main.c.o
+#=============================================================================
+# Target rules for targets named Cdemo1
 
-.PHONY : main.o
+# Build rule for target.
+Cdemo1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 Cdemo1
+.PHONY : Cdemo1
+
+# fast build rule for target.
+Cdemo1/fast:
+	$(MAKE) -f CMakeFiles/Cdemo1.dir/build.make CMakeFiles/Cdemo1.dir/build
+.PHONY : Cdemo1/fast
+
+isBlove.o: isBlove.c.o
+
+.PHONY : isBlove.o
 
 # target to build an object file
-main.c.o:
-	$(MAKE) -f CMakeFiles/Cdemo.dir/build.make CMakeFiles/Cdemo.dir/main.c.o
-.PHONY : main.c.o
+isBlove.c.o:
+	$(MAKE) -f CMakeFiles/Cdeme2.dir/build.make CMakeFiles/Cdeme2.dir/isBlove.c.o
+.PHONY : isBlove.c.o
 
-main.i: main.c.i
+isBlove.i: isBlove.c.i
 
-.PHONY : main.i
+.PHONY : isBlove.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles/Cdemo.dir/build.make CMakeFiles/Cdemo.dir/main.c.i
-.PHONY : main.c.i
+isBlove.c.i:
+	$(MAKE) -f CMakeFiles/Cdeme2.dir/build.make CMakeFiles/Cdeme2.dir/isBlove.c.i
+.PHONY : isBlove.c.i
 
-main.s: main.c.s
+isBlove.s: isBlove.c.s
 
-.PHONY : main.s
+.PHONY : isBlove.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles/Cdemo.dir/build.make CMakeFiles/Cdemo.dir/main.c.s
-.PHONY : main.c.s
+isBlove.c.s:
+	$(MAKE) -f CMakeFiles/Cdeme2.dir/build.make CMakeFiles/Cdeme2.dir/isBlove.c.s
+.PHONY : isBlove.c.s
+
+isPrime.o: isPrime.c.o
+
+.PHONY : isPrime.o
+
+# target to build an object file
+isPrime.c.o:
+	$(MAKE) -f CMakeFiles/Cdemo1.dir/build.make CMakeFiles/Cdemo1.dir/isPrime.c.o
+.PHONY : isPrime.c.o
+
+isPrime.i: isPrime.c.i
+
+.PHONY : isPrime.i
+
+# target to preprocess a source file
+isPrime.c.i:
+	$(MAKE) -f CMakeFiles/Cdemo1.dir/build.make CMakeFiles/Cdemo1.dir/isPrime.c.i
+.PHONY : isPrime.c.i
+
+isPrime.s: isPrime.c.s
+
+.PHONY : isPrime.s
+
+# target to generate assembly for a file
+isPrime.c.s:
+	$(MAKE) -f CMakeFiles/Cdemo1.dir/build.make CMakeFiles/Cdemo1.dir/isPrime.c.s
+.PHONY : isPrime.c.s
 
 # Help Target
 help:
@@ -156,12 +196,16 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... Cdeme2"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Cdemo"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... Cdemo1"
+	@echo "... isBlove.o"
+	@echo "... isBlove.i"
+	@echo "... isBlove.s"
+	@echo "... isPrime.o"
+	@echo "... isPrime.i"
+	@echo "... isPrime.s"
 .PHONY : help
 
 

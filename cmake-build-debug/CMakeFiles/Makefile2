@@ -53,12 +53,14 @@ CMAKE_BINARY_DIR = /Users/frank/CLionProjects/Cdemo/cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Cdemo.dir/all
+all: CMakeFiles/Cdeme2.dir/all
+all: CMakeFiles/Cdemo1.dir/all
 
 .PHONY : all
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Cdemo.dir/clean
+clean: CMakeFiles/Cdeme2.dir/clean
+clean: CMakeFiles/Cdemo1.dir/clean
 
 .PHONY : clean
 
@@ -68,31 +70,58 @@ preinstall:
 .PHONY : preinstall
 
 #=============================================================================
-# Target rules for target CMakeFiles/Cdemo.dir
+# Target rules for target CMakeFiles/Cdeme2.dir
 
 # All Build rule for target.
-CMakeFiles/Cdemo.dir/all:
-	$(MAKE) -f CMakeFiles/Cdemo.dir/build.make CMakeFiles/Cdemo.dir/depend
-	$(MAKE) -f CMakeFiles/Cdemo.dir/build.make CMakeFiles/Cdemo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Cdemo"
-.PHONY : CMakeFiles/Cdemo.dir/all
+CMakeFiles/Cdeme2.dir/all:
+	$(MAKE) -f CMakeFiles/Cdeme2.dir/build.make CMakeFiles/Cdeme2.dir/depend
+	$(MAKE) -f CMakeFiles/Cdeme2.dir/build.make CMakeFiles/Cdeme2.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Cdeme2"
+.PHONY : CMakeFiles/Cdeme2.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Cdemo.dir/rule: cmake_check_build_system
+CMakeFiles/Cdeme2.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cdemo.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cdeme2.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Cdemo.dir/rule
+.PHONY : CMakeFiles/Cdeme2.dir/rule
 
 # Convenience name for target.
-Cdemo: CMakeFiles/Cdemo.dir/rule
+Cdeme2: CMakeFiles/Cdeme2.dir/rule
 
-.PHONY : Cdemo
+.PHONY : Cdeme2
 
 # clean rule for target.
-CMakeFiles/Cdemo.dir/clean:
-	$(MAKE) -f CMakeFiles/Cdemo.dir/build.make CMakeFiles/Cdemo.dir/clean
-.PHONY : CMakeFiles/Cdemo.dir/clean
+CMakeFiles/Cdeme2.dir/clean:
+	$(MAKE) -f CMakeFiles/Cdeme2.dir/build.make CMakeFiles/Cdeme2.dir/clean
+.PHONY : CMakeFiles/Cdeme2.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/Cdemo1.dir
+
+# All Build rule for target.
+CMakeFiles/Cdemo1.dir/all:
+	$(MAKE) -f CMakeFiles/Cdemo1.dir/build.make CMakeFiles/Cdemo1.dir/depend
+	$(MAKE) -f CMakeFiles/Cdemo1.dir/build.make CMakeFiles/Cdemo1.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles --progress-num=3,4 "Built target Cdemo1"
+.PHONY : CMakeFiles/Cdemo1.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/Cdemo1.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cdemo1.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/Cdemo1.dir/rule
+
+# Convenience name for target.
+Cdemo1: CMakeFiles/Cdemo1.dir/rule
+
+.PHONY : Cdemo1
+
+# clean rule for target.
+CMakeFiles/Cdemo1.dir/clean:
+	$(MAKE) -f CMakeFiles/Cdemo1.dir/build.make CMakeFiles/Cdemo1.dir/clean
+.PHONY : CMakeFiles/Cdemo1.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

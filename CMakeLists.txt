@@ -3,4 +3,5 @@ project(Cdemo C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Cdemo main.c )
+add_executable(Cdemo1 isPrime.c)
+add_executable(Cdeme2 isBlove.c)
