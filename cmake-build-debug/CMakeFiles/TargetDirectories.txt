@@ -1,4 +1,0 @@
-/Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles/Cdeme2.dir
-/Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/frank/CLionProjects/Cdemo/cmake-build-debug/CMakeFiles/Cdemo1.dir
